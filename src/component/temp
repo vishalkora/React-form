@@ -1,0 +1,9 @@
+ var dump = JSON.stringify(this.state);
+    var temp = [];
+    
+    for(var i=0;i<=dump;i++){
+      temp[i]=JSON.stringify(this.state);
+    }
+    for(var i=0;i<=dump;i++){
+      document.write(temp[i]+"<br/>");
+    }
