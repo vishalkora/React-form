@@ -21,6 +21,7 @@ input {
   border: 1px solid #99bbff;
   border-radius: 4px;
   box-sizing: border-box;
+  font-family: Raleway;
 }
 label{
   text-align: left;
