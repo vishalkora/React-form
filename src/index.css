@@ -1,62 +1,63 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  align-content: center;
-
+  padding: 0;
+  font-weight: 400;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-input {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #99bbff;
-  border-radius: 4px;
-  box-sizing: border-box;
-  font-family: Raleway;
-}
-label{
-  text-align: left;
-}
-
-h1{
+.wrapper {
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: 	white;
   text-align: center;
-  font-family: Raleway;
-  font-weight: 400;
 }
-form{
-  padding: 50px;
-  background-color:#99bbff;
-   font-family: Raleway;
-  font-weight: 400;
-  border-radius: 24px;
-}
-.button{
-  background-color: #04AA6D;
-  border: none;
+
+.wrapper h1 {
+  margin-top: 30px;
   color: white;
-  padding: 10px;
+  font-weight: 400;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 8px;
-  
+
 }
-.button5 {  background-color: #ff0000;}
-div {
-  border-radius: 5px;
- 
-  padding: 20px 200px;
-  
+
+.wrapper p {
+  margin-top: 7px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.main {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  background-color: white;
+}
+
+.form-container {
+  width: 50%;
+  height: 100%;
+  background-color: none;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+
+
+.view-container {
+  width: 600px;
+  background-color: none;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.delete-btn {
+  color: red;
+  cursor: pointer;
+}
+
+tbody {
+  margin-top: 25px;
 }
